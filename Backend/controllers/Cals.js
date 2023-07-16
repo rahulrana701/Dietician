@@ -52,47 +52,10 @@ const createcal = async (req, res) => {
     res.status(200).json({ cal, actualcal });
 
 }
-const getcurrentcal = async (req, res) => {
-    const { user: { userId }, params: { id: calId } } = req;
-
-    const cal = await Cals.find({
-        _id: calId,
-        createdby: userId,
-    })
-    if (!cal) {
-        res.status(409).json('no calories recorded')
-    }
-    const { height, weight, age, gender, activityLevel } = cal[0];
-    const actualcal = CalculateCalories(weight, height, age, gender, activityLevel);
-    res.status(200).json({ cal: cal[0], actualcal });
-}
-const updatecurrentcal = async (req, res) => {
-    const { body: { height, weight, gender, age, activityLevel }, user: { userId }, params: { id: calId } } = req;
-    if (height === ' ' || weight === ' ' || gender === ' ' || age === ' ' || activityLevel === ' ') {
-        res.json('no calorie recorded')
-    }
-    const cal = await Cals.findByIdAndUpdate({ _id: calId, createdby: userId }, req.body, { new: true })
-    if (!cal) {
-        res.status(409).json('no calorie recorded')
-    }
-    const actualcal = CalculateCalories(cal.weight, cal.height, cal.age, cal.gender, cal.activityLevel);
-    res.status(200).json({ cal, actualcal });
-}
-const deletecurrentcal = async (req, res) => {
-    const { user: { userId }, params: { id: calId } } = req;
-    const cal = await Cals.findByIdAndRemove({ _id: calId, createdby: userId })
-    if (!cal) {
-        res.status(409).json('no calorie recorded')
-    }
-    res.status(200).json("the note has finally been deleted");
-}
 
 
 
 module.exports = {
     getallcal,
-    createcal,
-    getcurrentcal,
-    updatecurrentcal,
-    deletecurrentcal,
+    createcal
 }
