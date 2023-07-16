@@ -25,7 +25,7 @@ export default function Login() {
 
     const handlesubmit2 = async (e) => {
         e.preventDefault();
-        const response = await fetch(`http://localhost:5000/api/v1/user/login`, {
+        const response = await fetch(`https://dietician-pi8g.onrender.com/api/v1/user/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

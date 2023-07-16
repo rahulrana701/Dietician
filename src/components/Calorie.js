@@ -29,7 +29,7 @@ export default function Calorie() {
     } else {
       setIsLoggedIn(true);
       const handleSubmit2 = async () => {
-        const response = await fetch(`http://localhost:5000/api/v1/calorie`, {
+        const response = await fetch(`https://dietician-pi8g.onrender.com/api/v1/calorie`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ export default function Calorie() {
     setErrorMessage('');
     const token = localStorage.getItem('token');
 
-    const response = await fetch(`http://localhost:5000/api/v1/calorie`, {
+    const response = await fetch(`https://dietician-pi8g.onrender.com/api/v1/calorie`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -27,11 +27,12 @@ export default function Signup() {
   }, []);
 
 
-  
+
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const response = await fetch(`http://localhost:5000/api/v1/user/signup`, {
+    const response = await fetch(`https://dietician-pi8g.onrender.com/api/v1/user/signup`, {
+      // const response = await fetch(`http://localhost:5000/api/v1/user/signup`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
