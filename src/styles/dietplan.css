@@ -8,7 +8,7 @@
     position: relative;
     padding-bottom: 40px;
     height: 540px;
-    background: black url('https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/assets/123585591/ccb761b0-eb1a-4804-ac7a-27a368867557') no-repeat center center/cover;
+    background: black url('../components/Img/Dietplanimg/diet.jpg') no-repeat center center/cover;
 }
 
 .diet h1 {
@@ -93,7 +93,7 @@
     font-weight: bolder;
     line-height: 1.6;
     position: relative;
-    background: url('https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/assets/123585591/c34cb8bf-b3bb-4f4f-8365-513c95cf994a') no-repeat center center/cover;
+    background: url('../components/Img/Dietplanimg/deit2.jpg') no-repeat center center/cover;
 
 }
 
