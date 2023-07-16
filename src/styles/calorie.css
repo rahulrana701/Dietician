@@ -323,9 +323,11 @@
     .whycaloriebox {
         width: 90%;
         top: 40px;
-        height: 490px;
+        height: 520px;
     }
-
+    .whycalories {
+        height: 594px;
+    }
     .calorie form {
         width: 90%;
     }
@@ -383,7 +385,16 @@
         height: 614px;
     }
     .whycaloriebox {
-        height: 540px;
+        height: 560px;
+    }
+
+}
+@media screen and (max-width:358px) {
+    .whycalories {
+        height: 684px;
+    }
+    .whycaloriebox {
+        height: 610px;
     }
 
 }

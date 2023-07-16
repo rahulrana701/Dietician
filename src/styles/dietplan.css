@@ -34,8 +34,13 @@
     padding-bottom: 40px;
 }
 
-.diet form input,
-select {
+.diet form input{
+    border-radius: 12px;
+    padding: 8px 12px;
+    border: none;
+    width: 50%;
+}
+.diet form select {
     border-radius: 12px;
     padding: 8px 12px;
     border: none;
@@ -121,8 +126,10 @@ select {
         padding: 20px  ;
     }
 
-    .diet form input,
-    select {
+    .diet form input{
+        width: 50%;
+    }
+    .diet form select {
         width: 50%;
     }
 

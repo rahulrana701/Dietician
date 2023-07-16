@@ -41,7 +41,14 @@
     gap: 2rem;
 }
 
-.make-appointment input,
+.make-appointment input {
+    border-radius: 12px;
+    padding: 8px 12px;
+    border: none;
+    box-shadow: 8px 9px 5px rgb(207, 206, 206);
+    width: 100%;
+}
+
 .make-appointment select {
     border-radius: 12px;
     padding: 8px 12px;
@@ -119,7 +126,8 @@
 
 @media only screen and (max-width: 414px) {
 
-    .make-appointment,.faq {
+    .make-appointment,
+    .faq {
         width: 79%;
         max-width: none;
     }

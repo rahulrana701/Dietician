@@ -39,7 +39,8 @@ export default function Appointment() {
                         <form action="" onSubmit={handleFormSubmit}>
                             <input type="text" name="" id="" placeholder='Name' />
                             <input type="email" name="" id="" placeholder='Email' />
-                            <select name="" id="" placeholder='Type of Service'>
+                            <select name="" id="" >
+                                <option value="">Type of Service</option>
                                 <option value="bfre">Belly Fat Reduction Exercise</option>
                                 <option value="bnu">Balanced Nutriton Diet</option>
                                 <option value="yt">Yoga Therapy</option>
@@ -47,7 +48,8 @@ export default function Appointment() {
                                 <option value="wg">Weight Gain Program</option>
                             </select>
                             <input type="date" name="" id="" placeholder='Preferred Date' />
-                            <select name="" id="" placeholder='Specialist To Consult With'>
+                            <select name="" id="" >
+                                <option value="">Specialist To Consult With</option>
                                 <option value="gh">Grace Hayne</option>
                                 <option value="cd">Caroline Dass</option>
                                 <option value="jk">Jude Karson</option>
