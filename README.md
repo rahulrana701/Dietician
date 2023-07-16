@@ -125,3 +125,5 @@ Used Edamam Nutrtion API in this website , Further In Edamam nutrion API used it
 ## Important Note
 Please keep in mind that the information provided by us is based on the data obtained from the "Edamam Nutrition" API .We always strive to provide accurate and up-to-date information. We apologize for any inconvenience caused.
 
+## LIVE LINK OF THE WEBSITE 
+https://dietician23.netlify.app/
