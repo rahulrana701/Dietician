@@ -8,7 +8,7 @@ export default function Appointment() {
     const [appointmentStatus, setAppointmentStatus] = useState('');
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        setAppointmentStatus('Your appointment has been fixed. We will get in touch with you  very shortly and tell you when our specialists will be available and when you can have a chat with them at the date you have fixed your appointment');
+        setAppointmentStatus('Your appointment has been fixed. We will get in touch with you  very shortly and tell you when our specialists will be available and when you can have a chat with them ');
     };
     useEffect(() => {
         const sr = ScrollReveal({
@@ -47,7 +47,6 @@ export default function Appointment() {
                                 <option value="mh">Meditation Healing</option>
                                 <option value="wg">Weight Gain Program</option>
                             </select>
-                            <input type="date" name="" id="" placeholder='Preferred Date' />
                             <select name="" id="" >
                                 <option value="">Specialist To Consult With</option>
                                 <option value="gh">Grace Hayne</option>
