@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "../styles/signup.css";
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
@@ -84,7 +84,7 @@ export default function Signup() {
             />
             <button type="submit">SUBMIT</button>
             <p>
-              Already have an account! <a className='loginbutton' href="/login">LOGIN</a> &#8594;
+              Already have an account! <Link className='loginbutton' to="/login">LOGIN</Link> &#8594;
             </p>
           </form>
         </div>

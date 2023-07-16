@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import "../styles/plan.css"
 import ScrollReveal from 'scrollreveal';
+import { Link } from 'react-router-dom';
+
+
 
 export default function Plan() {
     useEffect(() => {
@@ -29,7 +32,7 @@ export default function Plan() {
                 <div className="plans2">
                     <h1>Personalized <span>Nutrition Plans</span></h1>
                     <p>A personalized nutritional plan is a tailored approach to eating <br /> that is customized to an individual's specific needs, goals,<br /> and dietary requirements.It takes into account factors <br />such as age, sex, weight, height, activity level,<br /> food preferences, and any existing health conditions.</p>
-                    <a href='/diet' >GET YOUR PLAN</a>
+                    <Link to='/diet' >GET YOUR PLAN</Link>
                 </div>
             </div>
         </>

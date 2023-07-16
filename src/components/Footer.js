@@ -5,6 +5,8 @@ import twitter from "../components/Img/Footerimg/twitter-app-icon.png"
 import linkedin from "../components/Img/Footerimg/linkedin-app-icon.png"
 import instagram from "../components/Img/Footerimg/ig-instagram-icon.png"
 import ScrollReveal from 'scrollreveal';
+import { Link } from 'react-router-dom'
+
 
 export default function Footer() {
   useEffect(() => {
@@ -38,9 +40,9 @@ export default function Footer() {
         </div>
         <div className="end2">
           <li><h3>Services</h3></li>
-          <li><a href="/calorie">Calorie Tracker</a></li>
-          <li><a href="/diet">Diet Plans</a></li>
-          <li><a href="/recipes">Recipes</a></li>
+          <li><Link to="/calorie">Calorie Tracker</Link></li>
+          <li><Link to="/diet">Diet Plans</Link></li>
+          <li><Link to="/recipes">Recipes</Link></li>
         </div>
         <div className="end3">
           <li> <h3>GET SOCIAL</h3></li>
@@ -55,7 +57,7 @@ export default function Footer() {
       </div>
       <hr />
       <div className="copy">
-        <p>copyright &copy; Peredrift and other trademarks,service marks, and designs are the registered <br /> or   unregistered trademarks of rahul.inc in USA and other countries</p>
+        <p>copyright &copy; <br /> or   unregistered trademarks of rahul in INDIA and other countries</p>
       </div>
     </>
   )

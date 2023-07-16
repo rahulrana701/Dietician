@@ -130,6 +130,7 @@
         flex-direction: column;
         gap: 1.5rem;
         height: 925px;
+        padding-left: 10px;
     }
 
     .copy p {
@@ -141,7 +142,7 @@
 
 @media only screen and (max-width:460px) {
     .copy p {
-        font-size: .7rem;
+        font-size: .9rem;
     }
 }
 
