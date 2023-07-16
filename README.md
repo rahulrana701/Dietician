@@ -1,6 +1,15 @@
+
+<img width="1007" alt="Screenshot 2023-07-16 190834" src="https://github.com/rahulrana701/Dietician/assets/123585591/7c031fb9-3491-4bce-b186-a75b2b333e88">
+
+
+
+<br />
+<br />
+<br />
+<br />
+
+
 # AAVA HEALTH COACH
-
-
 Welcome to the aava health coach website . This website allows you to calculate and track your calories , it also keeps the record of your previous calories calculated so 
 that you can track your progress as well . It also allows you to check the macros of any food item you want along with it's calories so that you can make your own diet plans and adjust your meals accordingly . It also provides you the diet plans according to your goal like whether  you want to loose or gain weight and according to your
 diet type as well like whether you want a veg meal plan or non veg meal plan . Plus if you face any difficulty with the meals like you don't know how to make it or what ingredients would be required or whether this meal would be a good option or will it be fit in my daily calorie consumption , We also provide a recipe option in our website
