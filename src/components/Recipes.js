@@ -81,7 +81,7 @@ export default function Recipes() {
                             <h3>Protien: {Math.floor(recipe.recipe.totalNutrients.PROCNT.quantity)}gm</h3>
                             <h3>Carbs: {Math.floor(recipe.recipe.totalNutrients.CHOCDF.quantity)}gm</h3>
                             <h3>Fats: {Math.floor(recipe.recipe.totalNutrients.FAT.quantity)}gm</h3>
-                            <a href={recipe.recipe.url} target='_blank'>READ FULL RECIPE</a>
+                            <a href={recipe.recipe.url} target='_blank' rel='noreferrer'>READ FULL RECIPE</a>
                         </div>
                     ))}
                 </div>
@@ -93,32 +93,32 @@ export default function Recipes() {
                     <div className="recipe1">
                         <img src={noodles} alt="" />
                         <h2>VEGETABLE TAGINE</h2>
-                        <a href="https://www.themediterraneandish.com/moroccan-vegetable-tagine-recipe/" target='_blank'>READ RECIPE</a>
+                        <a href="https://www.themediterraneandish.com/moroccan-vegetable-tagine-recipe/" target='_blank' rel='noreferrer'>READ RECIPE</a>
                     </div>
                     <div className="recipe2">
                         <img src={noodles1} alt="" />
                         <h2>CHICKEN CURRY</h2>
-                        <a href="https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/" target='_blank'>READ RECIPE</a>
+                        <a href="https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/" target='_blank' rel='noreferrer'>READ RECIPE</a>
                     </div>
                     <div className="recipe3">
                         <img src={noodles2} alt="" />
                         <h2>LEMON SALMON</h2>
-                        <a href="https://www.themediterraneandish.com/lemon-garlic-salmon-recipe/" target='_blank'>READ RECIPE</a>
+                        <a href="https://www.themediterraneandish.com/lemon-garlic-salmon-recipe/" target='_blank' rel='noreferrer'>READ RECIPE</a>
                     </div>
                     <div className="recipe4">
                         <img src={noodles3} alt="" />
                         <h2>OAT MEAL</h2>
-                        <a href="https://www.loveandlemons.com/how-to-make-oatmeal/" target='_blank'>READ RECIPE</a>
+                        <a href="https://www.loveandlemons.com/how-to-make-oatmeal/" target='_blank' rel='noreferrer'>READ RECIPE</a>
                     </div>
                     <div className="recipe5">
                         <img src={noodles4} alt="" />
                         <h2>WHITE BEAN SOUP</h2>
-                        <a href="https://feelgoodfoodie.net/recipe/white-bean-soup/" target='_blank'>READ RECIPE</a>
+                        <a href="https://feelgoodfoodie.net/recipe/white-bean-soup/" target='_blank' rel='noreferrer'>READ RECIPE</a>
                     </div>
                     <div className="recipe6">
                         <img src={noodles5} alt="" />
                         <h2>CHICKEN PESTO PASTA</h2>
-                        <a href="https://therecipecritic.com/chicken-pesto-pasta/" target='_blank'>READ RECIPE</a>
+                        <a href="https://therecipecritic.com/chicken-pesto-pasta/" target='_blank' rel='noreferrer'>READ RECIPE</a>
                     </div>
                 </div>
             </div>
