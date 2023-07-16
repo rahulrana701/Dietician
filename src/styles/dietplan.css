@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.diet {
+    position: relative;
+    padding-bottom: 40px;
+    height: 540px;
+    background: black url('https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/assets/123585591/ccb761b0-eb1a-4804-ac7a-27a368867557') no-repeat center center/cover;
+}
+
+.diet h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.diet h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.diet form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.diet form input,
+select {
+    border-radius: 12px;
+    padding: 8px 12px;
+    border: none;
+    width: 50%;
+}
+
+.diet form input[type="submit"] {
+    border-radius: 12px;
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
+
+.diet form input[type="submit"]:hover {
+    background-color: rgb(210, 26, 13);
+}
+
+.diet2 {
+    padding: 50px 50px;
+    height: 570px;
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 43px;
+    box-shadow: 10px 10px 10px rgb(119, 118, 118);
+    background-color: #111112;
+}
+
+.diet2 h2 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.diet2 span {
+    color: green;
+}
+
+.dietdiet2 p {
+    padding: 30px 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bolder;
+    line-height: 1.6;
+    position: relative;
+    background: url('https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/assets/123585591/c34cb8bf-b3bb-4f4f-8365-513c95cf994a') no-repeat center center/cover;
+
+}
+
+@media screen and (max-width: 768px) {
+    .diet2 {
+        width: 90%;
+        padding: 30px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .diet2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .dietdiet2 p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .diet {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .diet2 {
+        padding: 20px  ;
+    }
+
+    .diet form input,
+    select {
+        width: 50%;
+    }
+
+    .diet h1 {
+        font-size: 1.6rem;
+    }
+
+    .diet h3 {
+        font-size: 1rem;
+        padding: 10px 50px;
+    }
+
+    .diet form input[type="submit"] {
+        width: 50%;
+    }
+}

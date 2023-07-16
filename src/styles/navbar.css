@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-img {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-img h4 {
+    padding-top: 15px;
+}
+
+.navbar-img h4 span {
+    color: green;
+}
+
+.navbar-img img {
+    height: 50px;
+    width: 50px;
+    margin-top: 13px;
+}
+
+.navlist ul {
+    display: flex;
+    padding-top: 22px;
+}
+
+.navlist ul li {
+    list-style: none;
+    margin-top: 8px;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(107, 103, 103);
+    font-weight: bold;
+}
+
+.navlist ul li a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.navlist ul .nav-btn {
+    margin-left: 25px;
+}
+
+.nav-btn {
+    border: none;
+    padding: 11px 11px;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn:hover {
+    font-size: 14px;
+    padding: 13px 19px;
+}
+
+
+.hamburger {
+    display: none;
+    position: absolute;
+    top: 23px;
+    right: 35px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.line {
+    background-color: green;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0px;
+}
+
+@media only screen and (max-width:874px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        transition: all 1s ease-in-out;
+        height: 375px;
+    }
+
+    .navlist {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        position: absolute;
+        top: 62px;
+        left: 0px;
+    }
+
+    .navlist ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navlist li a {
+        padding: 0px 23px;
+    }
+
+    .h-class {
+        height: 80px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .navlist ul .nav-btn {
+        margin-left: 12px;
+    }
+
+    .navbar-img {
+        position: absolute;
+        top: 3px;
+        left: 35px;
+    }
+
+    .navlist ul {
+        padding-top: 19px;
+        padding-left: 22px;
+    }
+    .navlist ul li a:hover {
+        display: block;
+        color: green;
+        font-weight: bold;
+        background-color: rgb(194, 228, 240);
+        border-radius: 18px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .navlist ul li a {
+        font-size: .8rem;
+    }
+}

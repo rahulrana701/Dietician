@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.services {
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.services2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-text h1 {
+    padding-top: 80px;
+    text-align: center;
+    color: green;
+}
+
+.services-content1 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    background: black url('../components/Img/Servicesimg/home-2.jpg') no-repeat center center/cover;
+    background-blend-mode: hard-light;
+    border-radius: 10px;
+}
+
+.services-content2 {
+    position: relative;
+    background: black url('../components/Img/Servicesimg/home-1.jpg') no-repeat center center/cover;
+    background-blend-mode: hard-light;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.services-content3 {
+    position: relative;
+    background: url('../components/Img/Servicesimg/foodtable.jpg') no-repeat center center/cover;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.services-content1 h2 {
+    padding-top: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: white
+}
+
+.services-content2 h2 {
+    padding-top: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: white
+}
+
+.services-content3 h2 {
+    padding-top: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: white
+}
+
+.services-content1 a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white
+}
+
+.services-content2 a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white
+}
+
+.services-content3 a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white
+}
+
+.services-content1 a:hover {
+    font-size: 2rem;
+}
+
+.services-content2 a:hover {
+    font-size: 2rem;
+}
+
+.services-content3 a:hover {
+    font-size: 2rem;
+}
+
+.daily-life-containers {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.life-container1 {
+    border: 2px solid rgb(238, 235, 235);
+    height: 350px;
+    width: 370px;
+    box-shadow: 8px 9px 10px gray;
+}
+
+
+.life-container1 img {
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+    height: 60px;
+    width: 60px;
+}
+
+.life-container1 h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.life-container1 p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(87, 86, 86);
+}
+
+.life-container1 a {
+    text-decoration: none;
+    display: block;
+    width: 95px;
+    margin: auto;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+}
+
+.life-container2 {
+    border: 2px solid rgb(238, 235, 235);
+    height: 350px;
+    width: 370px;
+    box-shadow: 8px 9px 10px gray;
+}
+
+
+.life-container2 img {
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+    height: 60px;
+    width: 60px;
+}
+
+.life-container2 h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.life-container2 p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(87, 86, 86);
+}
+
+.life-container2 a {
+    text-decoration: none;
+    display: block;
+    width: 95px;
+    margin: auto;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+}
+
+.life-container3 {
+    border: 2px solid rgb(238, 235, 235);
+    height: 350px;
+    width: 370px;
+    box-shadow: 8px 9px 10px gray;
+}
+
+
+.life-container3 img {
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+    height: 60px;
+    width: 60px;
+}
+
+.life-container3 h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.life-container3 p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(87, 86, 86);
+}
+
+.life-container3 a {
+    text-decoration: none;
+    display: block;
+    width: 95px;
+    margin: auto;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width:1200px) {
+    .services-content1 {
+        height: 264px;
+        width: 324px;
+    }
+
+    .services-content2 {
+        height: 264px;
+        width: 324px;
+    }
+
+    .services-content3 {
+        height: 264px;
+        width: 324px;
+    }
+
+    .life-container1 {
+        height: 392px;
+        width: 283px;
+    }
+
+    .life-container2 {
+
+        height: 392px;
+        width: 283px;
+
+    }
+
+    .life-container3 {
+
+        height: 392px;
+        width: 283px;
+
+    }
+
+}
+
+@media only screen and (max-width:912px) {
+    .daily-life-containers {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.3rem;
+    }
+
+    .life-container2 {
+        width: 391px;
+    }
+
+    .life-container3 {
+        width: 391px;
+    }
+
+    .life-container1 {
+        width: 391px;
+    }
+
+    .services2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.3rem;
+    }
+
+    .services-content1 {
+        width: 473px;
+    }
+
+    .services-content2 {
+        width: 473px;
+    }
+
+    .services-content3 {
+        width: 473px;
+    }
+}
+
+@media only screen and (max-width:483px) {
+    .daily-life-containers {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.3rem;
+    }
+
+    .life-container2 {
+        width: 300px;
+    }
+
+    .life-container3 {
+        width: 300px;
+    }
+
+    .life-container1 {
+        width: 300px;
+    }
+
+    .services2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.3rem;
+    }
+
+    .services-content1 {
+        height: 232px;
+        width: 343px;
+    }
+
+    .services-content2 {
+        height: 232px;
+        width: 343px;
+    }
+
+    .services-content3 {
+        height: 232px;
+        width: 343px;
+    }
+}

@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.whycalories {
+    position: relative;
+    background: url("https://github.com/JasonDsouza212/free-hit/assets/123585591/e020ab6e-7fc1-46ed-8377-25dc86d62dae") no-repeat center center/cover;
+    height: 560px;
+}
+
+.whycaloriebox {
+    margin-left: 36px;
+    padding-top: 20px;
+    position: relative;
+    background-color: rgb(8, 8, 24);
+    width: 570px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px 20px;
+    position: absolute;
+    top: 87px;
+    box-shadow: 2px 2px 2px rgb(8, 8, 24), -2px -2px 2px rgb(8, 8, 24);
+}
+
+.whycaloriebox h1 {
+    color: rgb(255, 77, 0);
+}
+
+.whycaloriebox h3 {
+    color: white;
+}
+
+.calorie {
+    position: relative;
+    padding-top: 50px;
+}
+
+.calorie h1 {
+    text-align: center;
+}
+
+.calorie span {
+    color: green;
+}
+
+.calorie form {
+    width: 560px;
+    height: 470px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    padding-top: 50px;
+    background-color: rgb(8, 8, 24);
+    border-radius: 44px;
+    box-shadow: 11px 11px 14px rgb(113, 113, 113);
+}
+
+.calorie form input {
+    padding: 9px 12px;
+    width: 75%;
+    border: none;
+    box-shadow: 5px 5px 9px rgb(8, 8, 24);
+    border-radius: 10px;
+}
+
+.calorie form select {
+    padding: 9px 12px;
+    width: 75%;
+    border: none;
+    box-shadow: 5px 5px 9px rgb(8, 8, 24);
+    border-radius: 10px;
+}
+
+.calorie form input[type='submit'] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.calorie form input[type='submit']:hover {
+    color: white;
+    background-color: rgb(255, 77, 0);
+}
+
+.checkcalories {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.displaycalories {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 26px;
+    background-color: rgb(8, 8, 24);
+    box-shadow: 11px 11px 14px rgb(113, 113, 113);
+    margin: auto;
+}
+
+.displaycalories h4 {
+    color: white;
+}
+
+.displaycalories h2 {
+    color: rgb(255, 77, 0);
+}
+
+.error-message {
+    color: white;
+}
+
+.getall {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.getallcal {
+    padding-top: 20px;
+    position: relative;
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 26px;
+    background-color: rgb(8, 8, 24);
+    box-shadow: 11px 11px 14px rgb(113, 113, 113);
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.getallcal h4 {
+    color: white;
+}
+
+.getallcal h2 {
+    color: rgb(255, 77, 0);
+}
+
+.getallinput {
+    position: relative;
+}
+
+.getallinput p {
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(8, 87, 8);
+}
+
+.getallinput h1 {
+    text-align: center;
+
+}
+
+.getallinput span {
+    color: rgb(255, 77, 0);
+}
+
+
+.mastcalorie {
+    padding-top: 110px;
+    position: relative;
+    padding-bottom: 60px;
+    background: url('https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/assets/123585591/f6b15a35-bd89-4a31-b65b-3afe20b7a1b1') no-repeat center center/cover;
+}
+
+.mastcalorie h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.mastcalorie p {
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.mastcalorie h1 span {
+    color: green;
+}
+
+.mastcalorieform {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.mastcalorieform input {
+    padding: 10px 10px;
+    width: 60%;
+    border: 2px solid rgb(193, 193, 193);
+    box-shadow: 8px 8px 8px rgb(157, 156, 156);
+}
+
+.mastcalorieform input[type='submit'] {
+    padding: 8px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mastcalorieform input[type='submit']:hover {
+    background-color: rgb(255, 77, 0);
+}
+
+.mastcaloriecheck {
+    height: 560px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-radius: 28px;
+    background-color: rgb(8, 8, 24);
+    color: rgb(255, 77, 0);
+}
+
+.mastcaloriecheck hr {
+    width: 100%;
+}
+
+.mastcaloriecheck span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.calorieresult {
+    padding-top: 40px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: rgb(8, 8, 24);
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 24px;
+    box-shadow: 10px 10px 10px rgb(141, 140, 140);
+}
+
+.calorieresult h1 {
+    color: red;
+}
+
+.calorieresult h3 {
+    font-weight: bolder;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.calorieresult span {
+    color: green;
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .whycaloriebox {
+        width: 90%;
+        margin-left: 20px;
+        top: 60px;
+    }
+
+    .calorie form {
+        width: 90%;
+    }
+
+    .getallcal {
+        width: 90%;
+    }
+
+    .mastcalorieform {
+        width: 90%;
+    }
+
+    .calorieresult {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:527px) {
+    .whycaloriebox {
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .whycaloriebox {
+        width: 90%;
+        top: 40px;
+        height: 490px;
+    }
+
+    .calorie form {
+        width: 90%;
+    }
+
+    .getallcal {
+        width: 90%;
+    }
+
+    .mastcalorieform {
+        width: 90%;
+    }
+
+    .calorieresult {
+        height: 325px;
+        width: 90%;
+    }
+
+    .calorie h1 {
+        font-size: 1.6rem;
+    }
+
+    .getallinput h1 {
+        font-size: 1.6rem;
+    }
+
+    .getallinput p {
+        font-size: 1.1rem;
+        padding: 10px 30px;
+    }
+
+    .mastcalorie h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .mastcaloriecheck {
+        width: 339px;
+    }
+
+    .calorie form {
+        width: 80%;
+    }
+
+    .displaycalories {
+        width: 317px;
+    }
+    .calorieresult {
+        width: 73%;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .whycalories {
+        height: 614px;
+    }
+    .whycaloriebox {
+        height: 540px;
+    }
+
+}

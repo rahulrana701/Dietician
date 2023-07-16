@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.advisor {
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+
+.advisor-img1 img {
+    height: 340px;
+    width: 530px;
+}
+
+.advisor-content span {
+    color: green;
+}
+
+.advisor-content p {
+    padding-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    padding-top: 34px;
+}
+
+.advisor-content .buttons button {
+    border: none;
+}
+
+.advisor-content button a {
+    text-decoration: none;
+    padding: 9px 15px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.advisor2 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.advisor2-img1 img {
+    height: 200px;
+    width: 300px;
+}
+
+.advisor2-img2 img {
+    height: 200px;
+    width: 300px;
+}
+
+.advisor2-img3 img {
+    height: 200px;
+    width: 300px;
+}
+
+.advisor2-img4 img {
+    height: 200px;
+    width: 300px;
+}
+
+.advisor2-img1 p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.advisor2-img2 p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.advisor2-img3 p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.advisor2-img4 p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.advisor2-img1 p:hover {
+    color: green;
+}
+
+.advisor2-img2 p:hover {
+    color: green;
+}
+
+.advisor2-img3 p:hover {
+    color: green;
+}
+
+.advisor2-img4 p:hover {
+    color: green;
+}
+
+@media only screen and (max-width:1200px) {
+    .advisor2-img1 img {
+        height: 166px;
+        width: 228px;
+    }
+
+    .advisor2-img2 img {
+        height: 166px;
+        width: 228px;
+    }
+
+    .advisor2-img3 img {
+        height: 166px;
+        width: 228px;
+    }
+
+    .advisor2-img4 img {
+        height: 166px;
+        width: 228px;
+    }
+
+    .advisor-content p {
+        padding-top: 20px;
+        padding-right: 49px;
+    }
+
+}
+
+@media only screen and (max-width:912px) {
+    .advisor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advisor2 {
+        padding-top: 90px;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .advisor2-img3 img {
+        height: 263px;
+        width: 450px;
+    }
+
+    .advisor2-img4 img {
+        height: 263px;
+        width: 450px;
+    }
+
+    .advisor2-img2 img {
+        height: 263px;
+        width: 450px;
+    }
+
+    .advisor2-img1 img {
+        height: 263px;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:621px) {
+    .advisor-img1 img {
+        height: 306px;
+        width: 462px;
+    }
+
+    .advisor-content p {
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .advisor-content {
+        text-align: center;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .advisor-content p {
+        padding: 20px 18px;
+    }
+}
+
+@media only screen and (max-width:483px) {
+    .advisor2-img3 img {
+        height: 214px;
+        width: 335px;
+    }
+
+    .advisor2-img2 img {
+        height: 214px;
+        width: 335px;
+    }
+
+    .advisor2-img1 img {
+        height: 214px;
+        width: 335px;
+    }
+
+    .advisor2-img4 img {
+        height: 214px;
+        width: 335px;
+    }
+
+    .advisor-img1 img {
+        height: 250px;
+        width: 365px;
+    }
+
+}
+
+@media only screen and (max-width:413px) {
+    .advisor-content p {
+        font-size: .9rem;
+        padding: 15px 64px;
+    }
+
+    .advisor-img1 img {
+        height: 232px;
+        width: 332px;
+    }
+}

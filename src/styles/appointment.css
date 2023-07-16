@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.appointment {
+    padding-top: 100px;
+    position: relative;
+    background: rgb(18, 103, 18) url("../components/Img/Appointmentimg/bgimg.jpg") no-repeat center center/cover;
+    background-blend-mode: soft-light;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.make-appointment {
+    position: relative;
+    background: white url("../components/Img/Appointmentimg/section-bgimage-opaque3.png") no-repeat center center/cover;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.make-appointment h1 {
+    text-align: center;
+    color: green;
+}
+
+.make-appointment p {
+    text-align: center;
+    color: rgb(56, 56, 56);
+    padding-top: 20px;
+    padding-bottom: 58px;
+}
+
+.make-appointment form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.make-appointment input,
+.make-appointment select {
+    border-radius: 12px;
+    padding: 8px 12px;
+    border: none;
+    box-shadow: 8px 9px 5px rgb(207, 206, 206);
+    width: 100%;
+}
+
+.make-appointment input[type="submit"] {
+    border-radius: 12px;
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    box-shadow: 8px 9px 5px rgb(207, 206, 206);
+    width: 100%;
+}
+
+.make-appointment input[type="submit"]:hover {
+    background-color: black;
+}
+
+.faq {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 0px 20px;
+}
+
+.faq h1 {
+    padding-top: 30px;
+    color: white;
+}
+
+.faqs {
+    position: relative;
+    padding-top: 10px;
+}
+
+.faq1,
+.faq2,
+.faq3 {
+    margin-top: 5px;
+    background-color: white;
+    padding-top: 25px;
+    color: green;
+    padding: 27px 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .appointment {
+        flex-wrap: wrap;
+    }
+
+    .make-appointment,
+    .faq {
+        width: 95%;
+        max-width: none;
+    }
+
+    .faq1,
+    .faq2,
+    .faq3 {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .make-appointment h1 {
+        text-align: center;
+        color: green;
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .make-appointment,.faq {
+        width: 79%;
+        max-width: none;
+    }
+}

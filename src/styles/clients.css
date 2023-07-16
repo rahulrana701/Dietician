@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clients {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.clients h1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.clients span {
+    color: green;
+}
+
+.cstories {
+    position: relative;
+    padding-top: 70px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    gap: 5rem;
+}
+
+.cstories1 {
+    height: 180px;
+    width: 300px;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+}
+
+.cstories1 span {
+    color: yellow;
+}
+
+.cstories2 span {
+    color: yellow;
+}
+
+.cstories3 span {
+    color: yellow;
+}
+
+.cstories4 span {
+    color: yellow;
+}
+
+.cstories5 span {
+    color: yellow;
+}
+
+.cstories6 span {
+    color: yellow;
+}
+
+.cstories1 img {
+    height: 55px;
+    width: 50px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cstories1 h3 {
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.cstories1 p {
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.cstories2 {
+    height: 180px;
+    width: 300px;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+}
+
+.cstories2 img {
+    height: 55px;
+    width: 60px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cstories2 h3 {
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.cstories2 p {
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.cstories3 {
+    height: 180px;
+    width: 300px;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+}
+
+.cstories3 img {
+    height: 60px;
+    width: 55px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cstories3 h3 {
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.cstories3 p {
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.cstories4 {
+    height: 180px;
+    width: 300px;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+}
+
+.cstories4 img {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cstories4 h3 {
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.cstories4 p {
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.cstories5 {
+    height: 180px;
+    width: 300px;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+}
+
+.cstories5 img {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cstories5 h3 {
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.cstories5 p {
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.cstories6 {
+    height: 180px;
+    width: 300px;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+}
+
+.cstories6 img {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cstories6 h3 {
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.cstories6 p {
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+@media only screen and (max-width:1065px) {
+    .cstories {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .cstories {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .cstories1 {
+        width: 392px;
+    }
+
+    .cstories2 {
+        width: 392px;
+    }
+
+    .cstories3 {
+        width: 392px;
+    }
+
+    .cstories4 {
+        width: 392px;
+    }
+
+    .cstories5 {
+        width: 392px;
+    }
+
+    .cstories6 {
+        width: 392px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .cstories5 {
+        width: 325px;
+    }
+
+    .cstories4 {
+        width: 325px;
+    }
+
+    .cstories3 {
+        width: 325px;
+    }
+
+    .cstories6 {
+        width: 325px;
+    }
+
+    .cstories2 {
+        width: 325px;
+    }
+
+    .cstories1 {
+        width: 325px;
+    }
+
+    .clients h1 {
+        padding-top: 40px;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+}

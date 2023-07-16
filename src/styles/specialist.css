@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.specialist-content {
+    position: relative;
+}
+
+.specialist-content h1 {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.specialist-content span {
+    color: green;
+}
+
+.specialist {
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+
+.specialist-1 {
+    position: relative;
+    height: 440px;
+    width: 270px;
+    box-shadow: 4px 4px 8px rgb(181, 180, 180);
+}
+
+.specialist-1::before {
+    content: "";
+    position: absolute;
+    background: url("../components/Img/Specialistimg/person-2.jpg") no-repeat center center/cover;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+
+.specialist-1 h2 {
+    text-align: center;
+    padding-top: 370px;
+}
+
+.specialist-1 p {
+    text-align: center;
+    color: rgb(56, 55, 55);
+}
+
+.specialist-2 {
+    position: relative;
+    height: 440px;
+    width: 270px;
+    box-shadow: 4px 4px 8px rgb(181, 180, 180);
+}
+
+.specialist-2::before {
+    content: "";
+    position: absolute;
+    background: url("../components/Img/Specialistimg/grece.jpg") no-repeat center center/cover;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+
+.specialist-2 h2 {
+    text-align: center;
+    padding-top: 370px;
+}
+
+.specialist-2 p {
+    text-align: center;
+    color: rgb(56, 55, 55);
+}
+
+.specialist-3 {
+    position: relative;
+    height: 440px;
+    width: 270px;
+    box-shadow: 4px 4px 8px rgb(181, 180, 180);
+}
+
+.specialist-3::before {
+    content: "";
+    position: absolute;
+    background: url("../components/Img/Specialistimg/person-3.jpg") no-repeat center center/cover;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+
+.specialist-3 h2 {
+    text-align: center;
+    padding-top: 370px;
+}
+
+.specialist-3 p {
+    text-align: center;
+    color: rgb(56, 55, 55);
+}
+
+.specialist-4 {
+    position: relative;
+    height: 440px;
+    width: 270px;
+    box-shadow: 4px 4px 8px rgb(181, 180, 180);
+}
+
+.specialist-4::before {
+    content: "";
+    position: absolute;
+    background: url("../components/Img/Specialistimg/person-4.jpg") no-repeat center center/cover;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+
+.specialist-4 h2 {
+    text-align: center;
+    padding-top: 370px;
+}
+
+.specialist-4 p {
+    text-align: center;
+    color: rgb(56, 55, 55);
+}
+
+
+@media only screen and (max-width:1200px) {
+    .specialist-1 {
+        height: 340px;
+        width: 204px;
+    }
+
+    .specialist-2 {
+        height: 340px;
+        width: 204px;
+    }
+
+    .specialist-3 {
+        height: 340px;
+        width: 204px;
+    }
+
+    .specialist-4 {
+        height: 340px;
+        width: 204px;
+    }
+
+    .specialist-1 h2 {
+        padding-top: 280px;
+    }
+
+    .specialist-2 h2 {
+        padding-top: 280px;
+    }
+
+    .specialist-3 h2 {
+        padding-top: 280px;
+    }
+
+    .specialist-4 h2 {
+        padding-top: 280px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .specialist {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .specialist-1 {
+        height: 360px;
+        width: 306px;
+    }
+
+    .specialist-2 {
+        height: 360px;
+        width: 306px;
+    }
+
+    .specialist-3 {
+        height: 360px;
+        width: 306px;
+    }
+
+    .specialist-4 {
+        height: 360px;
+        width: 306px;
+    }
+
+    .specialist-1 h2 {
+        padding-top: 298px;
+    }
+
+    .specialist-2 h2 {
+        padding-top: 298px;
+    }
+
+    .specialist-3 h2 {
+        padding-top: 298px;
+    }
+
+    .specialist-4 h2 {
+        padding-top: 298px;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    .specialist-4 {
+        height: 360px;
+        width: 243px;
+    }
+    .specialist-3 {
+        height: 360px;
+        width: 243px;
+    }
+    .specialist-2 {
+        height: 360px;
+        width: 243px;
+    }
+    .specialist-1 {
+        height: 360px;
+        width: 243px;
+    }
+    .specialist-content h1 {
+        font-size: 1.7rem;
+    }
+}

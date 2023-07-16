@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.plan-container {
+    background: url('../components/Img/plansimg/plan1.jpg') no-repeat center center/cover;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.plans {
+    padding-right: 150px;
+}
+
+.plans span {
+    color: green;
+}
+
+.plans2 span {
+    color: green;
+}
+
+.plans p {
+    color: rgb(58, 57, 57);
+    padding-top: 20px;
+}
+
+.plans2 p {
+    color: rgb(58, 57, 57);
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.plans2 {
+    padding-top: 40px;
+    padding-right: 250px;
+}
+
+.plans2 a {
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.plans2 a:hover {
+    background-color: green;
+}
+
+@media only screen and (max-width:720px) {
+    .plans {
+        padding-right: 85px;
+    }
+
+    .plans2 {
+        padding-right: 182px;
+    }
+
+}
+
+@media only screen and (max-width:632px) {
+    .plan-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .plans {
+        text-align: center;
+        padding: 0;
+    }
+
+    .plans2 {
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width:524px) {
+
+    .plans {
+        text-align: center;
+        padding: 0;
+    }
+
+    .plans p {
+        padding: 10px 20px;
+    }
+
+    .plans2 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .plans2 p {
+        padding: 40px 20px;
+    }
+}
+@media only screen and (max-width:480px) {
+
+
+    .plans p {
+        padding: 10px 20px;
+        font-size: .9rem;
+    }
+    .plans h1{
+        font-size: 1.6rem;
+    }
+    .plans2 h1{
+        font-size: 1.6rem;
+    }
+    .plans2 p {
+        padding: 40px 20px;
+        font-size: .9rem;
+    }
+}

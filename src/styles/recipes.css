@@ -1,0 +1,608 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.recipes {
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+    height: 600px;
+    background: url("../components/Img/Recipesimg/bg3.jpg") no-repeat center center/cover;
+}
+
+.recipes1 {
+    padding-top: 60px;
+}
+
+.recipes h1 {
+    padding-top: 10px;
+    color: white;
+}
+
+.recipes1 h1 {
+    padding-top: 80px;
+    color: white;
+}
+
+.recipes1 p {
+    padding-top: 50px;
+    color: white;
+    font-size: .9rem;
+}
+
+.recipes1 {
+    padding-right: 600px;
+    padding-left: 50px;
+}
+
+.recipesapi {
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.recipesapi h1 {
+    text-align: center;
+}
+
+.recipesapi h1 span {
+    color: green;
+}
+
+.fillrecipe {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.fillrecipe form {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.fillrecipe form input {
+    border: 2px solid rgb(203, 200, 200);
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+    padding: 25px 25px;
+    width: 90%;
+}
+
+.fillrecipe form button {
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+    padding: 9px 12px;
+    width: 90%;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+.fillrecipe form button:hover {
+    background-color: black;
+}
+
+.getrecipe {
+    position: relative;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.recipecontainer {
+    position: relative;
+    width: 315px;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 9px 9px 9px rgb(189, 189, 189);
+}
+
+.recipecontainer h3,
+h2,
+h4 {
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.recipecontainer h3 {
+    color: red;
+}
+
+.recipecontainer h4 {
+    color: green;
+}
+
+.recipecontainer img {
+    height: 230px;
+    width: 315px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.recipecontainer p {
+    text-align: center;
+}
+
+.recipecontainer a {
+    padding: 3px 9px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 180px;
+    margin-top: 15px;
+}
+
+.recipecontainer a:hover {
+    background-color: green;
+}
+
+.mustrecipes {
+    position: relative;
+    text-align: center;
+    background: url("../components/Img/Recipesimg/bg4.jpg") no-repeat center center/cover;
+    padding-bottom: 20px;
+}
+
+.mustrecipes h1 {
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+.checkrecipe {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.recipe1 {
+    position: relative;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+}
+
+.recipe2 {
+    position: relative;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+}
+
+.recipe3 {
+    position: relative;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+}
+
+.recipe4 {
+    position: relative;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+}
+
+.recipe5 {
+    position: relative;
+    border: 2px solid white;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+}
+
+.recipe6 {
+    position: relative;
+    height: 370px;
+    width: 300px;
+    background-color: white;
+}
+
+.recipe1 h2 {
+    padding-top: 20px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.recipe1 a {
+    text-decoration: none;
+    padding: 4px 9px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.recipe2 a {
+    text-decoration: none;
+    padding: 4px 9px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.recipe3 a {
+    text-decoration: none;
+    padding: 4px 9px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.recipe4 a {
+    text-decoration: none;
+    padding: 4px 9px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.recipe5 a {
+    text-decoration: none;
+    padding: 4px 9px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.recipe6 a {
+    text-decoration: none;
+    padding: 4px 9px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.recipe2 h2 {
+    padding-top: 20px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.recipe3 h2 {
+    padding-top: 20px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.recipe4 h2 {
+    padding-top: 20px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.recipe5 h2 {
+    padding-top: 20px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.recipe6 h2 {
+    padding-top: 20px;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.recipe1 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.recipe2 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.recipe3 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.recipe4 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.recipe5 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.recipe6 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.recipe1 a:hover {
+    background-color: black;
+}
+
+.recipe2 a:hover {
+    background-color: black;
+}
+
+.recipe3 a:hover {
+    background-color: black;
+}
+
+.recipe4 a:hover {
+    background-color: black;
+}
+
+.recipe5 a:hover {
+    background-color: black;
+}
+
+.recipe6 a:hover {
+    background-color: black;
+}
+
+@media only screen and (max-width:999px) {
+    .getrecipe {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width:951px) {
+    .checkrecipe {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width:851px) {
+    .recipes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .recipes1 {
+        padding: 0;
+    }
+
+    .recipes1 p {
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width:802px) {
+    .fillrecipe {
+        width: 481px;
+        height: 400px;
+
+    }
+
+}
+
+@media only screen and (max-width:629px) {
+    .recipecontainer {
+        width: 283px;
+        height: 590px;
+    }
+
+    .recipecontainer img {
+        height: 230px;
+        width: 283px;
+    }
+}
+
+@media only screen and (max-width:625px) {
+    .recipe2 {
+        position: relative;
+        height: 377px;
+        width: 240px;
+        background-color: white;
+    }
+
+    .recipe3 {
+        position: relative;
+        height: 377px;
+        width: 240px;
+        background-color: white;
+    }
+
+    .recipe4 {
+        position: relative;
+        height: 377px;
+        width: 240px;
+        background-color: white;
+    }
+
+    .recipe5 {
+        position: relative;
+        height: 377px;
+        width: 240px;
+        background-color: white;
+    }
+
+    .recipe1 {
+        position: relative;
+        height: 377px;
+        width: 240px;
+        background-color: white;
+    }
+
+    .recipe6 {
+        position: relative;
+        height: 377px;
+        width: 240px;
+        background-color: white;
+    }
+
+    .recipe1 img {
+        height: 250px;
+        width: 240px;
+        object-fit: cover;
+    }
+
+    .recipe2 img {
+        height: 250px;
+        width: 240px;
+        object-fit: cover;
+    }
+
+    .recipe3 img {
+        height: 250px;
+        width: 240px;
+        object-fit: cover;
+    }
+
+    .recipe4 img {
+        height: 250px;
+        width: 240px;
+        object-fit: cover;
+    }
+
+    .recipe5 img {
+        height: 250px;
+        width: 240px;
+        object-fit: cover;
+    }
+
+    .recipe6 img {
+        height: 250px;
+        width: 240px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width:592px) {
+    .getrecipe {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .recipecontainer {
+        width: 340px;
+        height: 700px;
+    }
+
+    .recipecontainer img {
+        width: 340px;
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width:509px) {
+    .checkrecipe {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .recipe1 {
+        position: relative;
+        height: 352px;
+        width: 296px;
+        background-color: white;
+    }
+
+    .recipe2 {
+        position: relative;
+        height: 352px;
+        width: 296px;
+        background-color: white;
+    }
+
+    .recipe3 {
+        position: relative;
+        height: 352px;
+        width: 296px;
+        background-color: white;
+    }
+
+    .recipe4 {
+        position: relative;
+        height: 352px;
+        width: 296px;
+        background-color: white;
+    }
+
+    .recipe5 {
+        position: relative;
+        height: 352px;
+        width: 296px;
+        background-color: white;
+    }
+
+    .recipe6 {
+        position: relative;
+        height: 352px;
+        width: 296px;
+        background-color: white;
+    }
+
+    .recipe1 img {
+        height: 250px;
+        width: 296px;
+        object-fit: cover;
+    }
+
+    .recipe2 img {
+        height: 250px;
+        width: 296px;
+        object-fit: cover;
+    }
+
+    .recipe3 img {
+        height: 250px;
+        width: 296px;
+        object-fit: cover;
+    }
+
+    .recipe4 img {
+        height: 250px;
+        width: 296px;
+        object-fit: cover;
+    }
+
+    .recipe5 img {
+        height: 250px;
+        width: 296px;
+        object-fit: cover;
+    }
+
+    .recipe6 img {
+        height: 250px;
+        width: 296px;
+        object-fit: cover;
+    }
+
+    .recipes h1 {
+        font-size: 1.3rem;
+    }
+
+    .recipesapi h1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .mustrecipes h1 {
+        font-size: 1.2rem;
+    }
+
+    .fillrecipe {
+        width: 310px;
+        height: 400px;
+
+    }
+}
