@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import "../styles/login.css"
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function Login() {
     const [email, setEmail] = useState('');
@@ -56,7 +58,7 @@ export default function Login() {
                         <input type="password" name="password" id="password-logininput" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='ENTER THE PASSWORD' />
                         <button type="submit">SUBMIT</button>
                         <p>
-                            Don't have an account! <a className='signupbutton' href="/signup">SIGN UP</a> &#8594;
+                            Don't have an account! <Link className='signupbutton' to="/signup">SIGN UP</Link> &#8594;
                         </p>
                     </form>
                 </div>

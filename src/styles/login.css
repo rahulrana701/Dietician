@@ -5,19 +5,19 @@
 }
 
 #login {
-    background-image: linear-gradient(45deg, #8b5aed 0%, #78ebfc 100%);
     position: relative;
-    height: 100vh;
-    width: 100%;
 }
 
 .loginform {
     padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    background-image: linear-gradient(45deg, #8b5aed 0%, #78ebfc 100%);
+    justify-content: space-evenly;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-evenly;
+    position: relative;
+
 }
 
 .loginformimg {
@@ -106,7 +106,7 @@
     }
 }
 
-@media only screen and (max-width:611px) {
+@media only screen and (max-width:653px) {
     .loginform {
         flex-direction: column;
         align-items: center;
