@@ -1,4 +1,4 @@
-# A PERSONAL DIETICIAN WEBSITE
+# AAVA HEALTH COACH
 
 
 Welcome to the personal dietician website . This website allows you to calculate and track your calories , it also keeps the record of your previous calories calculated so 
