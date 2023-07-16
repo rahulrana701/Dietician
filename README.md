@@ -118,6 +118,7 @@ REACT_APP_API_ID_2="apiid2"
   npm start
 ```
 11. Open your browser and visit http://localhost:3000 to access the  website.
+12. To run the  server on localhost replace 'https://dietician-pi8g.onrender.com' with 'https://localhost:5000' wherever it is used.
 
 Used Edamam Nutrtion API in this website , Further In Edamam nutrion API used it's Nutrional Analysis API and Recipes API , please note that you can only search for up to 5000 recipes/fooditems-macros per day with one API key due to the limitations of this API.
 
