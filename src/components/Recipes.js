@@ -60,9 +60,10 @@ export default function Recipes() {
             </div>
             <div className="recipesapi">
                 <h1>LOOK OUT FOR YOUR FAVOURITE RECIPE <br /><span>WITH IT'S MACROS</span></h1>
+                <p>We also provide you recipes according to the ingredients you have </p>
                 <div className="fillrecipe">
                     <form action="">
-                        <input type="text" placeholder='SEARCH FOR ANY RECIPE' value={searchQuery} onChange={handleInputChange} />
+                        <input type="text" placeholder='SEARCH FOR ANY RECIPE OR LIST THE INGREDIENTS YOU HAVE' value={searchQuery} onChange={handleInputChange} />
                         <button onClick={handlesubmit}>GET RECIPES</button>
                     </form>
                 </div>

@@ -52,6 +52,11 @@
     color: green;
 }
 
+.recipesapi p {
+    text-align: center;
+    padding-top: 10px;
+}
+
 .fillrecipe {
     width: 800px;
     height: 400px;
@@ -99,7 +104,7 @@
 
 .recipecontainer {
     position: relative;
-    width: 315px;
+    width: 345px;
     height: 700px;
     border-radius: 15px;
     box-shadow: 9px 9px 9px rgb(189, 189, 189);
